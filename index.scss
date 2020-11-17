@@ -60,8 +60,8 @@ body {
     @media(max-width: 730px) {
         height: 600px;
     }
-    @media(max-width: 460px) {
-        min-width: 460px;
+    @media(max-width: 500px) {
+        min-width: 500px;
     }
     @media(min-width: 730px) {
         height: 600px;
@@ -148,6 +148,7 @@ body {
         margin-right: 20px;
     }
     @media(max-width: 400px) {
-        padding-left: 40px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 }

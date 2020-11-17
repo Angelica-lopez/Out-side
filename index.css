@@ -94,9 +94,9 @@ body {
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 500px) {
   .content__principal {
-    min-width: 460px;
+    min-width: 500px;
   }
 }
 
@@ -217,7 +217,8 @@ body {
 
 @media (max-width: 400px) {
   .content-prueba {
-    padding-left: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
 /*# sourceMappingURL=index.css.map */
