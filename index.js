@@ -1,4 +1,4 @@
-const images = ["https://assets.stickpng.com/thumbs/5a0c693082e02d31ecb8d004.png", "https://assets.stickpng.com/thumbs/5a0c696b82e02d31ecb8d00a.png", "https://assets.stickpng.com/thumbs/5a0c691a82e02d31ecb8d002.png"];
+const images = ["images/img1.png", "images/img2.png", "images/img3.png"];
 const rowLeft = document.getElementById("rowleft");
 const rowRight = document.getElementById("rowright");
 const image = document.getElementById("img");
