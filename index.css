@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: solid 10px fuchsia;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 50px 10px 50px;
+  background-color: #d170da;
+  font-family: 'Raleway Dots', cursive;
+}
+
+.header__title {
+  color: #81ffd5;
+  font-size: 56px;
+  margin: 0;
+}
+
+@media (max-width: 730px) {
+  .header {
+    display: block;
+  }
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+.nav__item {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav__item:hover {
+  cursor: pointer;
+  color: aquamarine;
+  font-size: 40px;
+}
+
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.content {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.content__principal {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url("https://animal.mx/wp-content/uploads/2020/04/como-cambiar-fondo-en-zoom.jpeg");
+}
+
+@media (max-width: 730px) {
+  .content__principal {
+    height: 600px;
+  }
+}
+
+@media (max-width: 460px) {
+  .content__principal {
+    min-width: 460px;
+  }
+}
+
+@media (min-width: 730px) {
+  .content__principal {
+    height: 600px;
+  }
+}
+
+.imagen {
+  width: 400px;
+  height: 400px;
+}
+
+.botones {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: white;
+  outline: none;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
+
+.history {
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.history__title {
+  text-align: center;
+  font-family: 'Big Shoulders Inline Text', cursive;
+  font-size: 70px;
+  padding-left: 300px;
+}
+
+@media (max-width: 700px) {
+  .history__title {
+    padding-left: 0;
+    font-size: 60px;
+    margin: 0;
+    padding: 26px 0;
+  }
+}
+
+.history__img-portada {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin: 0 30px 20px 0;
+}
+
+@media (max-width: 519px) {
+  .history__img-portada {
+    float: none;
+    margin: auto;
+  }
+}
+
+.history__paragraph {
+  text-align: justify;
+  line-height: 30px;
+}
+
+.history__paragraph--blue {
+  color: blue;
+}
+
+.history__paragraph--yellow {
+  color: yellow;
+}
+
+.history__paragraph--red {
+  color: red;
+}
+
+.history__paragraph--lila {
+  color: violet;
+}
+
+.history__paragraph--green {
+  color: greenyellow;
+}
+
+.content__two {
+  background-color: #d170da;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+  color: white;
+  font-size: 25px;
+  font-family: 'Big Shoulders Inline Text', cursive;
+}
+/*# sourceMappingURL=index.css.map */

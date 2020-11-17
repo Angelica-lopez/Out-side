@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    min-width: 300px;
+    justify-content: space-between;
+    border: solid 10px fuchsia;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(209, 112, 218);
+    font-family: 'Raleway Dots', cursive;
+    &__title {
+        color: rgb(129, 255, 213);
+        font-size: 56px;
+        margin: 0;
+    }
+    @media(max-width: 730px) {
+        display: block;
+    }
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    &__item {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+        &:hover {
+            cursor: pointer;
+            color: aquamarine;
+            font-size: 40px;
+        }
+    }
+}
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content {
+    margin-left: 100px;
+    margin-right: 100px;
+    @media(max-width: 900px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+}
+.content__principal {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url("https://animal.mx/wp-content/uploads/2020/04/como-cambiar-fondo-en-zoom.jpeg");
+    @media(max-width: 730px) {
+        height: 600px;
+    }
+    @media(max-width: 460px) {
+        min-width: 460px;
+    }
+    @media(min-width: 730px) {
+        height: 600px;
+    }
+}
+.imagen {
+    width: 400px;
+    height: 400px;
+}
+.botones {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.history {
+    padding-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    &__title {
+        text-align: center;
+        font-family: 'Big Shoulders Inline Text', cursive;
+        font-size: 70px;
+        padding-left: 300px;
+        @media(max-width: 700px) {
+            padding-left: 0;
+            font-size: 60px;
+            margin: 0;
+            padding: 26px 0;
+        }
+    }
+    &__img-portada {
+        width: 300px;
+        height: 400px;
+        float: left;
+        margin: 0 30px 20px 0;
+        @media(max-width: 519px) {
+            float: none;
+            margin: auto;
+        }
+    }
+    &__paragraph {
+        text-align: justify;
+        line-height: 30px; 
+        &--blue {
+            color: blue;
+        }
+        &--yellow {
+            color: yellow;
+        }
+        &--red {
+            color: red;
+        }
+        &--lila {
+            color: violet;
+        }
+        &--green {
+            color: greenyellow;
+        }
+    }
+}
+.content__two {
+    background-color: rgb(209, 112, 218);
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Big Shoulders Inline Text', cursive;
+}
